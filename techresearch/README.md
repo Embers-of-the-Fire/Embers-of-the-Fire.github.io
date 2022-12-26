@@ -9,6 +9,7 @@
     <a href="https://www.npmjs.com/package/azurlane-tech-research"><img src="https://img.shields.io/badge/NPM-azurlane--tech--research-orange"></img></a>
     <a href="https://crates.io/crates/azurlane_tech_research"><img src="https://img.shields.io/badge/Crates.IO-azurlane--tech--research-yellow"></a>
   </p>
+
   <sub>Built with 🦀🕸</sub>
 </div>
 
@@ -20,16 +21,15 @@
 
 > 快速连接：  
 > [科研策略专题攻略-BWiki][azurlane-bwiki-res]  
-> [GitHub Page（还没做）][github-page-res]
+> [GitHub Page][github-page-res]
 
 使用**WebAssembly**构建的在线科研规划服务，基本囊括了科研规划的主要功能。
 
 BWiki由于MediaWiki系统的限制可能部分展示会出现一定的问题。
 
 GitHub Page原生构建，通常情况下不会出现问题。
-> 但是我还没搞，先摸了
 
-[github-page-res]: https://embers-of-the-fire.github.io/azurlane/
+[github-page-res]: https://embers-of-the-fire.github.io/techresearch/techresearch.html
 [azurlane-bwiki-res]: https://wiki.biligame.com/blhx/科研策略专题攻略
 [azurlane-bwiki]: https://wiki.biligame.com/blhx/
 
