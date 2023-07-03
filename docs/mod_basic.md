@@ -34,8 +34,8 @@
 | ai_budget                                            | 定义 AI 的行为相关，主要是用于 AI 的计划经济                 |
 | ai_espionage                                         | AI 的间谍行动相关                                            |
 | ai_force_species                                     | 定义 AI 优先选择哪类物种增长的逻辑                           |
-| artifact_actions                                     | 小型文物的使用选项                                           |
-| archaeological_site_types                            | 各种坟头                                                     |
+| [artifact_actions](common_modding/archaeology.md#小型文物活动artifact_actions)                                     | 小型文物的使用选项                                           |
+| [archaeological_site_types](common_modding/archaeology.md#考古遗址archaeological_site_types)                            | 各种坟头                                                     |
 | ambient_objects                                      | 用于定义出现在异常之中的模型                                 |
 | anomalies                                            | 异常，所有的可使用异常                                       |
 | [armies](common_modding/armies.md)                   | 陆军，不论是事件生成的还是可以建造的（灵能部队/基因部队等）  |
@@ -52,9 +52,9 @@
 | colony_automation_categores                          | 定义殖民地自动化建造模板类别                                 |
 | colony_types                                         | 殖民地类别，定义殖民地的类别（精炼星球/科研星球等）          |
 | colors                                               | 颜色，用于国家颜色选择的定义                                 |
-| component_sets                                       | 舰船部件的定义文件                                           |
+| [component_sets](common_modding/ship.md#组件集合component_sets)                                       | 舰船部件的定义文件                                           |
 | component_tags                                       | 用于将修正器和舰船的组件关联在一起（能量/动能等）            |
-| component_templates                                  | 舰船部件，每种武器的属性设置（伤害/槽位/冷却等）             |
+| [component_templates](common_modding/ship.md#舰船部件component_templates)                                  | 舰船部件，每种武器的属性设置（伤害/槽位/冷却等）             |
 | country_container                                    | 用于定义国家组成部分所属于的经济分类，例如收支类型的自定义修正本地化，需要同时修改 economic_categories 才有效 |
 | country_customization                                | 定义给予各种帝国定制化的操作，给予自动生成帝国的旗帜与物种肖像定制（说白了就是让某一类国家旗帜趋向于同质化，不同国家体现差异化，蠢驴只给了机械，蜂巢和普通帝国的定制） |
 | country_limits                                       | 蠢驴抽风的表现条目之一，定义各类船只的容量以及使用限制       |
@@ -100,22 +100,22 @@
 | on_actions                                           | 触发器，设置各类需要特定触发的事件列表                       |
 | opinion_modifiers                                    | 关系修正，一个国家对于另一个国家的关系的修正（有利的贸易协定+100 等） |
 | personalities                                        | AI 性格，由于 AI 的角色扮演设置（民主斗士/奴隶暴君等）       |
-| planet_classes                                       | 星球类别，所有星球，包括恒星的设置（G 级恒星/大陆星球等）    |
+| [planet_classes](common_modding/planet_classes.md)                                       | 星球类别，所有星球，包括恒星的设置（G 级恒星/大陆星球等）    |
 | planet_modifiers                                     | 星球修正器，用于设置星系生成时自然添加的星球 buff 的概率设定 |
 | [policies](common_modding/policies.md)               | 国家政策，所有的国家政策的集合（奴隶制/战争哲学/轰炸政策/经济政策等） |
 | pop_categories                                       | 人口阶级（统治者/专家/劳工/复杂子人口等）                    |
 | pop_faction_types                                    | 党派，设置不同方面的党派生成和需求（军国主义派系/孤立主义派系等） |
 | [pop_jobs](common_modding/pop_jobs.md)               | 人口职业，所有工作的集合（矿工/农夫/科研人员/工匠等）        |
-| relics                                               | 遗珍，比如银河之星                                           |
+| [relics](common_modding/archaeology.md#遗珍relics)                                               | 遗珍，比如银河之星                                           |
 | random_names                                         | 随机名称，定义随机生成的名称（帝国/党派等）                  |
 | scripted_effects                                     | 封装触发的效果，一般用于事件效果（帝国生成/小灰转化等）      |
 | scripted_loc                                         | 封装触发的文本，用于经常被引用的文本生成                     |
 | scripted_triggers                                    | 封装条件判断，用于经常被引用的事件判断                       |
 | scripted_variables                                   | 常量，用于经常被引用的数值（科技数值等）                     |
 | script_values                                        | 脚本值，用于复杂变量操作                                     |
-| section_templates                                    | 船只的分段，例如战列舰有三个分段，这里就是定义某一个分段的文件 |
+| [section_templates](common_modding/ship.md#舰船区段section_templates)                                    | 船只的分段，例如战列舰有三个分段，这里就是定义某一个分段的文件 |
 | ship_behaviors                                       | 船只行为，用于设置舰船以及舰载机的船只行为                   |
-| ship_sizes                                           | 舰船类型，例如普通帝国的战列舰，不管用什么分段，基础情况下这个战列舰就算是一个“类型” |
+| [ship_sizes](common_modding/ship.md#舰船类型ship_sizes)                                           | 舰船类型，例如普通帝国的战列舰，不管用什么分段，基础情况下这个战列舰就算是一个“类型” |
 | solar_system_initializers                            | 恒星系生成器，用于一切恒星系的生成                           |
 | special_projects                                     | 特殊项目，所有特殊项目的集合                                 |
 | species_archetypes                                   | 效果是设定一个种族类别最大的修饰特征数目（肉体/机械等）      |
@@ -192,13 +192,15 @@ NotePad++：https://notepad-plus-plus.org/
 
 #### 快速上手 <!-- {docsify-ignore} -->
 
-1. 下载最新版本（编写教程时为 2022.2）的 Intellij IDEA。（直接使用社区版即可，也可以使用 JB 全家桶中的其他 IDE，例如 PyCharm）
+[Github - README - 快速上手](https://github.com/DragonKnightOfBreeze/Paradox-Language-Support/blob/master/README.md#%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B)
+
+1. 下载最新版本（编写教程时为 2023.2）的 Intellij IDEA。（直接使用社区版即可，也可以使用 JB 全家桶中的其他 IDE，例如 PyCharm）
 2. 通过 IDE 打开你的模组根目录。（目前要求直接包含模组描述符文件 descriptor.mod，也可以用来打开其他游戏的模组根目录以及游戏目录，或者打开的项目目录中包含这类目录）
 3. 打开模组描述符文件。（如果你没有安装此插件，此时 IDEA 应当会提示你安装，安装完成后需要重启 IDE）
 
 ![img](mod_basic.assets/mod_basic.4.jpg)
 
-4. 点击位于编辑器右上角的悬浮工具栏（或者编辑器右键菜单）中的模组配置按钮，配置模组的游戏类型、游戏目录和模组依赖。（现已支持从启动器的播放集 json 文件导入导出模组依赖！）
+4. 点击位于编辑器右上角的悬浮工具栏（或者编辑器右键菜单）中的模组配置按钮，配置模组的游戏类型、游戏目录和模组依赖。
 
 ![img](mod_basic.assets/mod_basic.5.jpg)
 
@@ -229,15 +231,12 @@ Q：那请你也说说它目前的不足之处。
 
 A：相比 CWTools 以及个人预期，插件目前存在以下几点缺陷。
 
--   无法生成本地化。
--   无法生成事件树、科技树等图表。
--   尚不支持基于具体的使用处推断`scripted_trigger`、`scripted_effect`等的作用域上下文。
 -   尚不支持[Irony Mod Manager](https://github.com/bcssov/IronyModManager)提供的一些高级功能。例如模组合并、冲突检查。
 -   对于其他 P 社游戏和游戏模组的支持可能并不理想。
 
 Q：我想提出需求或者反馈 BUG。
 
-A：如果有任何问题，欢迎通过[Github 的 Issue 页面](https://github.com/DragonKnightOfBreeze/Paradox-Language-Support/issues)反馈。当然，如果你能直接联系到作者本人，你可以直接私聊……
+A：如果有任何问题，欢迎通过[Github](https://github.com/DragonKnightOfBreeze/Paradox-Language-Support/issues)或者QQ群（653824651）进行反馈
 
 ## 粒子编辑器
 

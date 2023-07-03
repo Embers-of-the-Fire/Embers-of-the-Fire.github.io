@@ -16,5 +16,9 @@
     -   [战争目标(war_goals)](common_modding/war_goals.md)
     -   [飞升(ascension_perks)](common_modding/ascension_perks.md)
     -   [政策(policies)](common_modding/policies.md)
+    -   [舰船(ship)](common_modding/ship.md)
+    -   [考古(archaeology)](common_modding/archaeology.md)
+    -   [星球类型(planet_classes)](common_modding/planet_classes.md)
+    -   [巨像(colossus)](common_modding/colossus.md)
 
 <footer id="mb-footer"></footer>
