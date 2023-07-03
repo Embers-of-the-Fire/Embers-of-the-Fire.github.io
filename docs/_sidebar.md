@@ -1,4 +1,20 @@
-- [首页](README.md)
-- [序言](preamble.md)
+-   [首页](README.md)
+-   [序言](preamble.md)
+-   [建立你的第一个 MOD](your_first_mod.md)
+-   [MOD 基础知识与准备](mod_basic.md)
+-   [MOD 本地化](localisation.md)
+-   **Common Modding**
+    -   [议程(agendas)](common_modding/agendas.md)
+    -   [科技(technology)](common_modding/technology.md)
+    -   [法令(edicts)](common_modding/edicts.md)
+    -   [军队(armies)](common_modding/armies.md)
+    -   [种族和领袖特质(traits)](common_modding/traits.md)
+    -   [建筑(buildings)](common_modding/buildings.md)
+    -   [职业(pop_jobs)](common_modding/pop_jobs.md)
+    -   [政府(goverments)](common_modding/goverments.md)
+    -   [战争借口(casus_belli)](common_modding/casus_belli.md)
+    -   [战争目标(war_goals)](common_modding/war_goals.md)
+    -   [飞升(ascension_perks)](common_modding/ascension_perks.md)
+    -   [政策(policies)](common_modding/policies.md)
 
 <footer id="mb-footer"></footer>
