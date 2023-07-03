@@ -10,19 +10,25 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- 暗模式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css" />
-  <!-- Changelog -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css" />
-  <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
 <body>
   <nav></nav>
   <div id="app">加载中...</div>
   <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+
     window.$docsify = {
       name: 'Stellaris Mod 教程',
       repo: '',
-      // 标题最大深度
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      // 目录标题最大深度
+      subMaxLevel: 4,
+      // 最大深度
       maxLevel: 4,
       // 侧边栏
       loadSidebar: true,
@@ -91,8 +97,9 @@
       }
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify v4（由于Docsify存在使用Bug，我们暂时使用自己修改后的版本） -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
+  <script src="docsify.min.js"></script>
 
   <!-- 插件 -->
   <!-- 搜索栏 -->
