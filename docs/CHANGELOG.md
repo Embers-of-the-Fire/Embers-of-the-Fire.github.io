@@ -1,5 +1,31 @@
 # Change Log
 
+## 0.3.0 (2023-7-3)
+
+### Fix
+
+-   Change the description of `PLS` plugin
+
+### Features
+
+<details>
+    <summary>Add Documentation</summary>
+
+-   Common Modding
+    -   archaeology
+        -   artifact_ations
+        -   archaeological_site_types
+        -   relics
+    -   colossus
+    -   planet_classes
+    -   ship
+        -   component_sets
+        -   component_templates
+        -   section_templates
+        -   ship_sizes
+
+</details>
+
 ## 0.2.0 (2023-7-3)
 
 ### Fix
