@@ -36,7 +36,7 @@ l_simp_chinese:
     # `$`中间的代码是引用已经本地化的内容，像这里的`$job_researcher_plural$`就是会显示“研究人员”
     # 注意:一定要确认引用内容的准确性，每一个字母都不能错，不然就会显示空格
     # `£`中间的代码是引用图表，例如`£consumer_goods£`就会显示消耗品图标
-    job_researcher_effect_desc:1 "£job_researcher£$job_researcher_plural$将£consumer_goods §Y$consumer_goods$§!转化为£physics£·£society£·£engineering §Y研究点数§!"
+    job_researcher_effect_desc:1 "£job_researcher£ $job_researcher_plural$将£consumer_goods£ §Y$consumer_goods$§!转化为£physics£·£society£·£engineering£ §Y研究点数§!"
     mod_job_researcher_add:0 "$job_researcher$岗位"
     mod_job_researcher_per_pop:0 "每$VALUE$个人口提供§G+1§!个$job_researcher$岗位"
     mod_job_researcher_per_pop_short:0 "\n每$VALUE$ £pop£ §G+1§! £mod_job_researcher_add£ "
