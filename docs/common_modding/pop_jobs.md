@@ -5,8 +5,7 @@
 ```pdx
 clerk = {               # ID
     category = worker   # 阶级
-    condition_string = WORKER_JOB_TRIGGER   # 用于检测这个工作是否可用的一系列逻辑
-    #在Stellaris\common\scripted_triggers里面
+    condition_string = WORKER_JOB_TRIGGER   # 用于检测这个工作是否可用的一系列逻辑。在`Stellaris\common\scripted_triggers`里面
     possible_precalc = can_fill_worker_job  # 能胜任什么工作，game_rule里面改
     building_icon = building_residence      # 这个工作的背景建筑图标，图标位置同建筑
     clothes_texture_index = 2       # 外表，仅影响外观

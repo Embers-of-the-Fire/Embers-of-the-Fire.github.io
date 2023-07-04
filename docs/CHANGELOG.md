@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.1 (2023-7-4)
+
+### Fix
+
+-   Fix syntax highlighting for pdx and yaml.
+
 ## 0.3.0 (2023-7-3)
 
 ### Fix
