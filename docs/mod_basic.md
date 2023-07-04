@@ -108,10 +108,10 @@
 | [pop_jobs](common_modding/pop_jobs.md)               | 人口职业，所有工作的集合（矿工/农夫/科研人员/工匠等）        |
 | [relics](common_modding/archaeology.md#遗珍relics)                                               | 遗珍，比如银河之星                                           |
 | random_names                                         | 随机名称，定义随机生成的名称（帝国/党派等）                  |
-| scripted_effects                                     | 封装触发的效果，一般用于事件效果（帝国生成/小灰转化等）      |
+| [scripted_effects](event_modding/further.md#脚本效果scripted-effect)                                     | 封装触发的效果，一般用于事件效果（帝国生成/小灰转化等）      |
 | scripted_loc                                         | 封装触发的文本，用于经常被引用的文本生成                     |
-| scripted_triggers                                    | 封装条件判断，用于经常被引用的事件判断                       |
-| scripted_variables                                   | 常量，用于经常被引用的数值（科技数值等）                     |
+| [scripted_triggers](event_modding/further.md#脚本条件scripted-trigger)                                    | 封装条件判断，用于经常被引用的事件判断                       |
+| [scripted_variables](event_modding/further.md#脚本变量scripted-variables)                                   | 常量，用于经常被引用的数值（科技数值等）                     |
 | script_values                                        | 脚本值，用于复杂变量操作                                     |
 | [section_templates](common_modding/ship.md#舰船区段section_templates)                                    | 船只的分段，例如战列舰有三个分段，这里就是定义某一个分段的文件 |
 | ship_behaviors                                       | 船只行为，用于设置舰船以及舰载机的船只行为                   |

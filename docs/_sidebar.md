@@ -1,5 +1,6 @@
 -   [首页](README.md)
 -   [序言](preamble.md)
+-   [工具链接](links.md)
 -   [建立你的第一个 MOD](your_first_mod.md)
 -   [MOD 基础知识与准备](mod_basic.md)
 -   [MOD 本地化](localisation.md)
@@ -20,5 +21,13 @@
     -   [考古(archaeology)](common_modding/archaeology.md)
     -   [星球类型(planet_classes)](common_modding/planet_classes.md)
     -   [巨像(colossus)](common_modding/colossus.md)
+-   **Event Modding**
+    -   [Event 简介](event_modding/event_overview.md)
+    -   [工具准备](event_modding/tool.md)
+    -   [Event 基础](event_modding/event_basic.md)
+    -   [作用域(Scope)](event_modding/scope.md)
+    -   [Event 调试](event_modding/event_debug.md)
+    -   [Event 高级功能](event_modding/further.md)
+-   [Change Log](CHANGELOG.md)
 
 <footer id="mb-footer"></footer>
