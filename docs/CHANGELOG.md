@@ -1,5 +1,31 @@
 # Change Log
 
+<style>
+    details {
+        padding-left: 30px;
+        text-align: left;
+    }
+</style>
+
+## 0.5.0 (2023-7-4)
+
+### Fix
+
+-   Add `else_if` to pdx-lang's keywords list
+-   Set `<details>` tags' padding and align
+
+### Features
+
+<details>
+    <summary>Add Documentation</summary>
+
+-   Event Modding(Advanced)
+    -   border_of_event
+    -   how_to_find_scope
+    -   overview
+
+</details>
+
 ## 0.4.0 (2023-7-4)
 
 ### Fix

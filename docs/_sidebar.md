@@ -28,6 +28,10 @@
     -   [作用域(Scope)](event_modding/scope.md)
     -   [Event 调试](event_modding/event_debug.md)
     -   [Event 高级功能](event_modding/further.md)
+-   **Event Modding 进阶**
+    -   [绪论](event_modding_advanced/overview.md)
+    -   [认识你与event的极限](event_modding_advanced/border_of_event.md)
+    -   [如何找到目标 Scope](event_modding_advanced/how_to_find_scope.md)
 -   [Change Log](CHANGELOG.md)
 
 <footer id="mb-footer"></footer>
