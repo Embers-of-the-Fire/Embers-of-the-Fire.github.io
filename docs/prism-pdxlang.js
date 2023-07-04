@@ -1,7 +1,7 @@
 (function (Prism) {
     const pdx = {
         'string': {
-            pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+            pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"/,
             lookbehind: true,
             greedy: true
         },
@@ -9,13 +9,9 @@
             pattern: /#.*/,
             greedy: true
         },
-        'key': { pattern: /@\w+/, greedy: true, alias: "atrule" },
-        'identifier': {
-            pattern: /\w+(?=\s*(?:!=|>=|<=|<|>|==|=)(?!\s*{))/,
-            greedy: true,
-            lookbehind: true,
-        },
-        'function': /\w+(?=\s*(?:!=|>=|<=|<|>|==|=)\s*{)/,
+        'key': { pattern: /@\w+\b/, greedy: true, alias: "atrule" },
+        'variable': /\$\s*[A-Za-z0-9_]+\s*\$/,
+        'function': { pattern: /@\\?/, alias: "function-definition" },
         'number': /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
         'punctuation': /[{}[\],]/,
         'operator': /==|!=|<=|>=|>|<|=|@/,
