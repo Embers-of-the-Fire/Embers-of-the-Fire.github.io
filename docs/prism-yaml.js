@@ -2,7 +2,7 @@
     Prism.languages.yaml = {
         'comment': /#.*/,
         'key': {
-            pattern: /\w+\s*(?=:)/,
+            pattern: /[A-Za-z_\.0-9]+\s*(?=:)/,
             lookbehind: true,
             greedy: true,
             alias: 'atrule'
