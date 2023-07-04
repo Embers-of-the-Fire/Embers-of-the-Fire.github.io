@@ -1,5 +1,12 @@
 # Change Log
 
+<style>
+    details {
+        padding-left: 30px;
+        text-align: left;
+    }
+</style>
+
 ## 0.4.0 (2023-7-4)
 
 ### Fix
