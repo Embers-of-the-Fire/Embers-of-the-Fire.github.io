@@ -1,5 +1,29 @@
 # Change Log
 
+## 0.4.0 (2023-7-4)
+
+### Fix
+
+-   Change title level
+-   Fix render problem when rendering key-calling
+-   Fix some documentation
+
+### Features
+
+<details>
+    <summary>Add Documentation</summary>
+
+-   Event Modding
+    -   event_basic
+    -   event_debug
+    -   event_overview
+    -   further
+    -   scope
+    -   tool
+-   links(links to utils)
+
+</details>
+
 ## 0.3.1 (2023-7-4)
 
 ### Fix
