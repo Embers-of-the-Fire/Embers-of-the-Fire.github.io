@@ -27,6 +27,9 @@
     -   [Effects](https://stellaris.paradoxwikis.com/Effects)
     -   [Conditions](https://stellaris.paradoxwikis.com/Conditions)
     -   [Scopes](https://stellaris.paradoxwikis.com/Scopes)
+    -   [Dynamic Modding](https://stellaris.paradoxwikis.com/Dynamic_modding)
+    -   [Interface Modding](https://stellaris.paradoxwikis.com/Interface_modding)
+        -   [GUI Template](https://stellaris.paradoxwikis.com/Interface_modding#Sample_GUI_File)
 
 ### 其他教程
 
