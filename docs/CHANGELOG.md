@@ -1,5 +1,9 @@
 # Change Log
 
+<script>
+    redirect_github('CHANGELOG.md')
+</script>
+
 <style>
     details {
         padding-left: 30px;

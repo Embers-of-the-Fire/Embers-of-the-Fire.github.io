@@ -1,4 +1,8 @@
-# 飞升(ascension_perks)
+# 飞升(Ascension Perks)
+
+<script>
+    redirect_github('common_modding/ascension_perks.md')
+</script>
 
 飞升的文件目录在`Stellaris/common/ascension_perks`，而在原版之中，`00_ascension_perks.txt`则是原版的飞升文件。而飞升不仅需要本地化文件，还需要在`gfx/interface`定义贴图文件目录，一般为名称为`GFX_<ID>`，其图片文件应该在`gfx\interface\icons\ascension_perks`，而 dds 文件则应该为**52\*60**的图片，其阿尔法通道的图片样式应该为**正六边形状**（因为飞升图标为正六边形）。
 

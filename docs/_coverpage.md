@@ -1,3 +1,7 @@
+<script>
+    hide_github();
+</script>
+
 ![logo](logo.svg ':size=15%')
 
 # < Stellaris Mod 教程 >

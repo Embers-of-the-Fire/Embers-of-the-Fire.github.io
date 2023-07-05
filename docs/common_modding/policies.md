@@ -1,4 +1,8 @@
-# 政策(policies)
+# 政策(Policies)
+
+<script>
+    redirect_github('common_modding/policies.md')
+</script>
 
 政策文件目录在`Stellaris/common/policies`里面，而原版文件则为`00_policies.txt`。政策一般用于设置一个政策标识（即`policy_flags`），用于各种地方的判定（事件触发，事件选项，科技，战争等）亦或者提供加成。
 

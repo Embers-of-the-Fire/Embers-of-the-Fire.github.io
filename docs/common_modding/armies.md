@@ -1,5 +1,9 @@
 # 军队(Armies)
 
+<script>
+    redirect_github('common_modding/Armies.md')
+</script>
+
 ## 军队的组成与修改
 
 军队文件存在于`Stellaris\common\armies`目录下，下面以一个实例用于了解军队的基本结构与内容，以及它的修改：

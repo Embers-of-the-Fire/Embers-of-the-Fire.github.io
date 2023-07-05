@@ -1,5 +1,9 @@
 # 认识你与 event 的极限
 
+<script>
+    redirect_github('event_modding_advanced/border_of_event.md')
+</script>
+
 在这篇进阶教程的第一章，我们将讨论一下蠢驴 event 的基本架构，并回答一个重要的问题：
 
 <p style="text-align: center;font-size: 1.2rem;"><b>事件究竟能做什么？</b></p>

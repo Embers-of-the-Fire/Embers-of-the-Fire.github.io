@@ -1,4 +1,8 @@
-# 战争目标(war_goals)
+# 战争目标(War Goals)
+
+<script>
+    redirect_github('common_modding/war_goals.md')
+</script>
 
 原版文件在`Stellaris\common\war_goals`目录下，下面举一个例子（如果看得懂英文且基础不错，可直接看蠢驴的示范文件`wg_example.txt`）：
 

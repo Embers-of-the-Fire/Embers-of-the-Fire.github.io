@@ -1,4 +1,8 @@
-# 科技(technology)
+# 科技(Technology)
+
+<script>
+    redirect_github('common_modding/technology.md')
+</script>
 
 ## 认识科技的组成
 
@@ -157,9 +161,9 @@ l_simp_chinese:
 
 ## 添加图标
 
-在添加自己的图标之前，先来看看蠢驴的图标都放到哪里：`Stellaris\gfx\interface\icons\technologies`这里面都是原版stellaris的科技图标，如果你只是想简单的套用蠢驴的图标，那么很简单，只要在刚刚的写的科技里面加上这样一句`icon = [科技图标名称]`例如`icon = tech_manifest_destiny`，那么就完成了。
+在添加自己的图标之前，先来看看蠢驴的图标都放到哪里：`Stellaris\gfx\interface\icons\technologies`这里面都是原版 stellaris 的科技图标，如果你只是想简单的套用蠢驴的图标，那么很简单，只要在刚刚的写的科技里面加上这样一句`icon = [科技图标名称]`例如`icon = tech_manifest_destiny`，那么就完成了。
 
-不过如果你想要自己添加一个独一无二的图标，那么就得编辑.dds文件了。Photoshop 有能修改.dds文件的插件，本教程不提供PS极其插件的下载链接。在此我先默认大家都有这样的条件。同样的，仿照stellaris的科技图标目录建立文件夹，之后只留下一个`tech_manifest_destiny.dds`文件，用PS打开之后根据自己的喜好修改（本教程不提供PS方面的教程，还请见谅）比如我的就像是图1那样，保存时应该按照图2那样设置，这样可以使得你的贴图拥有最高的质量，不易发生失真，保存名字应该与科技同名，这样方便之后查询以及调用。
+不过如果你想要自己添加一个独一无二的图标，那么就得编辑.dds 文件了。Photoshop 有能修改.dds 文件的插件，本教程不提供 PS 极其插件的下载链接。在此我先默认大家都有这样的条件。同样的，仿照 stellaris 的科技图标目录建立文件夹，之后只留下一个`tech_manifest_destiny.dds`文件，用 PS 打开之后根据自己的喜好修改（本教程不提供 PS 方面的教程，还请见谅）比如我的就像是图 1 那样，保存时应该按照图 2 那样设置，这样可以使得你的贴图拥有最高的质量，不易发生失真，保存名字应该与科技同名，这样方便之后查询以及调用。
 
 ![img](technology.assets/clip_image002-16883682384281.png)
 

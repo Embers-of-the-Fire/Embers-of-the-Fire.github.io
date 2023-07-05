@@ -1,4 +1,8 @@
-# 舰船(ship)
+# 舰船(Ship)
+
+<script>
+    redirect_github('common_modding/ship.md')
+</script>
 
 ## 概览
 
@@ -11,7 +15,7 @@
 -   `section_templates` 舰船区段，这个是为了确定一个某种类型的船的区段能装有什么样的槽位，比如在一个战列舰上装 3L 槽。
 -   `global_ship_designs` 是指一个特定的舰船装配，一般用于事件船只。
 
-## 舰船部件(component_templates)
+## 舰船部件(Component Templates)
 
 ```pdx
 weapon_component_template = {       # 声明这是什么配件，目前这个是武器部件，utility_component_template是防御组件（盾等），strike_craft_component_template是舰载机类
@@ -102,7 +106,7 @@ weapon_component_template = {       # 声明这是什么配件，目前这个是
 }
 ```
 
-## 组件集合(component_sets)
+## 组件集合(Component Sets)
 
 ```pdx
 # 以下为组件集
@@ -123,7 +127,7 @@ point_defence_turret = {        # 槽位 ID，不能重复
 }
 ```
 
-## 舰船类型(ship_sizes)
+## 舰船类型(Ship Sizes)
 
 ```pdx
 corvette = {    # 舰船类型 ID
@@ -169,7 +173,7 @@ corvette = {    # 舰船类型 ID
 }
 ```
 
-## 舰船区段(section_templates)
+## 舰船区段(Section Templates)
 
 ```pdx
 ship_section_template = {

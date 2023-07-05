@@ -16,9 +16,30 @@
 </head>
 
 <body>
-  <nav></nav>
+  <nav>
+    <a id="edit-on-github" href="https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/edit/main/docs/"
+      target="_blank" style="display: none;">在Github中编辑</a>
+  </nav>
   <div id="app">加载中...</div>
   <script>
+    // edit-on-github link
+    function redirect_github(fp) {
+      var node = document.querySelector("#edit-on-github");
+      if (node) {
+        node.setAttribute('href', "https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/edit/main/docs/" + fp);
+        node.setAttribute('style', 'display: unset;');
+      }
+    }
+
+    // hide edit-on-github link
+    function hide_github() {
+      var node = document.querySelector("#edit-on-github");
+      if (node) {
+        node.setAttribute('style', 'display: none;');
+      }
+    }
+
+    // sw support
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
@@ -29,6 +50,8 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
+      // 允许执行脚本
+      executeScript: true,
       // 目录标题最大深度
       subMaxLevel: 3,
       // 最大深度
@@ -97,7 +120,7 @@
         terms: false,
         // show the cookies policy link
         cookies: false,
-      }
+      },
     }
   </script>
   <!-- Docsify v4（由于Docsify存在使用Bug，我们暂时使用自己修改后的版本） -->

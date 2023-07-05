@@ -1,5 +1,9 @@
 # MOD 基础知识与准备
 
+<script>
+    redirect_github('mod_basic.md')
+</script>
+
 ## MOD 的工作原理
 
 众所周知，MOD 是游戏的一个非官方扩展，而 P 社的 MOD 的工作原理基于相同文件的映射和覆盖，比如 MOD 里面存在一个和原版 stellaris**相同文件夹的相同名称的文件**，那么 MOD 将会替代它，如果不是相同文件则会加入到游戏之中成为额外的部分。

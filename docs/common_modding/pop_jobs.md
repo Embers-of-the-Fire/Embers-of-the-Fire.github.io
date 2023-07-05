@@ -1,4 +1,8 @@
-# 职业(pop_jobs)
+# 职业(Pop Jobs)
+
+<script>
+    redirect_github('common_modding/pop_jobs.md')
+</script>
 
 职业的一般范围是**某个星球**。
 

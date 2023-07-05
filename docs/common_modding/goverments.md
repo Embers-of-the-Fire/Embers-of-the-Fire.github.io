@@ -1,4 +1,8 @@
-# 政府(goverments)
+# 政府(Goverments)
+
+<script>
+    redirect_github('common_modding/goverments.md')
+</script>
 
 原版的文件在`Stellaris\common\governments`目录下，包含政体（例如寡头制/帝制等）（`authorities`），公民性/国策/民政（奴隶行会/封建社会等）（不同主流汉化不一样，本文一律以“公民性”代称）（`civics`），政府形式（选举君主制/直接民主制等）（`00_governments.txt`），与政体和公民性不一样的是，政府形式是根据逻辑语句自动判断生成的，而非自由选择。
 

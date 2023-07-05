@@ -1,4 +1,8 @@
-# 战争借口(casus_belli)
+# 战争借口(Casus Belli)
+
+<script>
+    redirect_github('common_modding/casus_belli.md')
+</script>
 
 原版文件在`Stellaris\common\casus_belli`里面，下面举一个例子：
 

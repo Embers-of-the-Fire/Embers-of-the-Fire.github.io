@@ -1,4 +1,8 @@
-# 建筑(buildings)
+# 建筑(Buildings)
+
+<script>
+    redirect_github('common_modding/buildings.md')
+</script>
 
 建筑的一般范围是**某个星球**，提供的任何职业都属于该星球的星球修正，而稳定度、幸福度、贸易值、舒适度、犯罪值等都属于星球修正，而能在`Stellaris\common\strategic_resources`里面所找到的，都属于资源类型，更容易支持各种修正的添加。
 

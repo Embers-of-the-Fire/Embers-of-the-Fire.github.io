@@ -1,5 +1,9 @@
 # 工具链接
 
+<script>
+    redirect_github('links.md')
+</script>
+
 ## 代码编写工具
 
 ### IDE

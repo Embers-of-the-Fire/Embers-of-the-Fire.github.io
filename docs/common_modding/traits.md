@@ -1,4 +1,8 @@
-# 种族和领袖特质(traits)
+# 种族和领袖特质(Traits)
+
+<script>
+    redirect_github('common_modding/traits.md')
+</script>
 
 ## 种族特质修改
 

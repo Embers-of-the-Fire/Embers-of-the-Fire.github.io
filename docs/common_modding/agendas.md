@@ -1,4 +1,8 @@
-# 议程(agendas)
+# 议程(Agendas)
+
+<script>
+    redirect_github('common_modding/agendas.md')
+</script>
 
 !> 不必拘泥于该条目，由于蠢驴的问题该条目显示并不清晰，建议移步法令部分开始学习。
 
