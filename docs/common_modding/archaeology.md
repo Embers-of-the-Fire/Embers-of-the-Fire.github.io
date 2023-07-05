@@ -1,4 +1,8 @@
-# 考古(archaeology)
+# 考古(Archaeology)
+
+<script>
+    redirect_github('common_modding/archaeology.md')
+</script>
 
 ## 小型文物活动(artifact_actions)
 

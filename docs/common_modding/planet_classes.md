@@ -1,4 +1,8 @@
-# 星球类型(planet_classes)
+# 星球类型(Planet Classes)
+
+<script>
+    redirect_github('common_modding/planet_classes.md')
+</script>
 
 目录在`Stellairs/common/planet_classes`，里面是原版的一些星球类型。
 

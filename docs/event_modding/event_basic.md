@@ -1,5 +1,9 @@
 # Event 基础
 
+<script>
+    redirect_github('event_modding/event_basic.md')
+</script>
+
 我们先来看最基础的 Event 格式：
 
 ```pdx

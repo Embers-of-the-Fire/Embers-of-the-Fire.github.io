@@ -1,5 +1,9 @@
 # 作用域(Scope)
 
+<script>
+    redirect_github('event_modding/scope.md')
+</script>
+
 终于还是来到了作用域(Scope)，我们如果要写出精彩的功能，就当然不会满足于在一个固定 Scope 进行 Effect 操作，我们需要在一个默认作用域当中去影响其他作用域并实现我们的一些功能，此时我们就需要作用域的转换了，在这一节，你将认识到何为 Scope 以及如何完成 Scope 的转换。
 
 ## 系统作用域(System Scopes)

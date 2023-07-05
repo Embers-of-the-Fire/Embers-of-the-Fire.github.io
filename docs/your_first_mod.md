@@ -1,5 +1,9 @@
 # 建立你的第一个 MOD
 
+<script>
+    redirect_github('your_first_mod.md')
+</script>
+
 ## 通过启动器
 
 !> 以下两种方法不兼容

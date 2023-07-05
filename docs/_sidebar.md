@@ -30,8 +30,16 @@
     -   [Event 高级功能](event_modding/further.md)
 -   **Event Modding 进阶**
     -   [绪论](event_modding_advanced/overview.md)
-    -   [认识你与event的极限](event_modding_advanced/border_of_event.md)
+    -   [认识你与 event 的极限](event_modding_advanced/border_of_event.md)
     -   [如何找到目标 Scope](event_modding_advanced/how_to_find_scope.md)
+-   **scripted effect 与 trigger 的函数应用**
+    -   [绪论](functions/preamble.md)
+    -   [Scripted effect 函数化](functions/functionalize.md)
+-   **GUI 与 视觉效果**
+    -   [GFX 与 Sprite Type](visual/gfx.md)
+    -   [Custom GUI](visual/custom_gui.md)
+    -   [字体导入](visual/fonts.md)
+-   [代码覆盖规则](overwrite.md)
 -   [Change Log](CHANGELOG.md)
 
 <footer id="mb-footer"></footer>

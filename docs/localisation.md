@@ -1,5 +1,9 @@
 # 本地化(localisation)
 
+<script>
+    redirect_github('localisation.md')
+</script>
+
 ## 认识本地化文件的组成
 
 以原版的`simp_chinese`文件夹之中的`l_simp_chinese.yml`为例，一个标准的本地化文件的名称应该是：`[项目名称]_l_[语言代码].yml`，同样的，相同名字的本地化文件会在 mod 加载后被 mod 覆盖。任何的本地化文件编码格式都应该是`UTF-8-BOM`，任何不是这样编码的文件都无法被保证能否正常被游戏读取。当打开`l_simp_chinese.yml`之后，你应该会看见如下的内容：

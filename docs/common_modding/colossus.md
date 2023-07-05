@@ -1,4 +1,8 @@
-# 巨像(colossus)
+# 巨像(Colossus)
+
+<script>
+    redirect_github('common_modding/colossus.md')
+</script>
 
 巨像武器是群星中最为典型的 event 武器之一，通过开火时触发事件以达到某些目的，不是理论上，而是任何 event 能做到的东西，巨像都能做到。因为其中用到了 event 的相关知识，所以如果你还没有学习 event 的内容，建议先去后面几章学习一下再翻回头看本节内容。
 

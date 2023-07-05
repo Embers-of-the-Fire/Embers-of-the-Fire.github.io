@@ -1,5 +1,9 @@
 # 工具准备
 
+<script>
+    redirect_github('event_modding/tool.md')
+</script>
+
 ## 编辑器选择
 
 工欲善其事，必先利其器。由于蠢驴的大部分 Mod 文件都是.txt 文件，因此各位在之前的 Mod 制作过程中，应该已经选择了自己熟悉的文本编辑器进行 Mod 制作。但是到了 Event 部分，我个人十分建议采用 VSC(Visual Studio Code)或 Idea(Jetbrains IntelliJ Idea)|PyCharm(Jetbrains PyCharm)进行 Mod 编写。

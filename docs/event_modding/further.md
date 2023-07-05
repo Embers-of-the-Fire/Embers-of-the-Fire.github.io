@@ -1,5 +1,9 @@
 # Event 高级功能
 
+<script>
+    redirect_github('event_modding/further.md')
+</script>
+
 有了之前的基础知识，各位应该已经能够自己实现一些简单的功能，进阶篇将会对 Event 当中最常用的两类语句进行解析并结合实例进行讲解：标识(Flag)，事件对象(Event Target)。
 
 ## 标识(Flag)
