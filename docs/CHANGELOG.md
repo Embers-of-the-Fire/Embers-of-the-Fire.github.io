@@ -11,6 +11,27 @@
     }
 </style>
 
+## 0.6.0 (2023-7-5)
+
+### Features
+
+-   Add "edit on github" button
+-   Add highlight for 16/8/2-based numbers
+
+<details>
+    <summary>Add Documentation</summary>
+
+-   functions
+    -   functionalize
+    -   preamble
+-   overwrite
+-   visual
+    -   custom_gui
+    -   fonts
+    -   gfx
+
+</details>
+
 ## 0.5.0 (2023-7-4)
 
 ### Fix
