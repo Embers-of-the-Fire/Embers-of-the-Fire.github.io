@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub 首页
+    url: https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io
+    about: 该项目在 Github 上的首页
+  - name: 在 Github 上提交Issue
+    url: https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/issues/new/choose
+    about: 在 Github 上提交关于这个项目的Issue

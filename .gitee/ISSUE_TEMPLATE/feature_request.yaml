@@ -1,0 +1,37 @@
+name: 功能诉求
+description: 提供一个对这个项目的建议或想法
+title: "[功能]"
+labals: ["enhancement"]
+assignees: []
+body:
+- type: textarea
+  id: issue
+  attribute:
+    labal: 相关问题(issue)
+    description: 这个功能建议是否与现存的问题？如果有，那么请在这里指明。
+- type: textarea
+  id: feature
+  attribute:
+    label: 新功能是什么
+    value: |
+      ### 新功能是什么
+      <!-- 你想要得到什么样的功能 -->
+
+      ### 其他解决方案
+      <!-- 有没有一些其他解决方案 -->  
+  validations:
+    required: true
+- type: textarea
+  id: why
+  attribute:
+    label: 为什么要加入这个功能
+    value: |
+      ### 这个功能的优点是什么
+
+      ### 这个功能可能的副作用有什么
+  validations:
+    required: true
+- type: textarea
+  id: add
+  attribute:
+    label: 额外信息

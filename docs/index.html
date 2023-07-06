@@ -13,12 +13,49 @@
   <!-- Changelog -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css" />
   <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/851783b873.js" crossorigin="anonymous"></script>
 </head>
+
+<style>
+  nav ul#edit-list li ul li a,
+  nav ul#issue-list li ul li a {
+    text-align: center;
+  }
+
+  nav ul#issue-list {
+    padding-left: 0;
+  }
+</style>
 
 <body>
   <nav>
-    <a id="edit-on-github" href="https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/edit/main/docs/"
-      target="_blank" style="display: none;">在Github中编辑</a>
+    <ul id="edit-list" style="display: none;">
+      <li>
+        <i class="fa-regular fa-pen-to-square" style="color: #42b983;"></i>&nbsp;编辑该页面
+        <!-- Here we overwrite docsify's default nav-bar list, so it's capable of that changelog plugin -->
+        <ul style="width: 100%;right: 0;">
+          <li><a id="edit-on-github"
+              href="https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/tree/main/docs/"
+              target="_blank">Github</a></li>
+          <li><a id="edit-on-gitee" href="https://gitee.com/embers-of-the-fire/embers-of-the-fire/blob/main/docs/"
+              target="_blank">Gitee</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul id="issue-list" style="display: none;">
+      <li>
+        <span style="padding-left: 10px; padding-right: 10px;"><i class="fa-regular fa-flag"
+            style="color: #cc3e44;"></i>&emsp;问题</span>
+        <ul style="width: 100%;right: 0;">
+          <li><a id="issue-on-github"
+              href="https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/issues/new?assignees=&labels=documentation%2C+enhancement&projects=&template=new-documentation.md&title=[DOC] PR:"
+              target="_blank">Github</a></li>
+          <li><a href="https://gitee.com/embers-of-the-fire/embers-of-the-fire/blob/main/docs/"
+              target="_blank">Gitee</a></li>
+        </ul>
+      </li>
+    </ul>
   </nav>
   <div id="app">加载中...</div>
   <script>
@@ -27,15 +64,34 @@
       var node = document.querySelector("#edit-on-github");
       if (node) {
         node.setAttribute('href', "https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/edit/main/docs/" + fp);
-        node.setAttribute('style', 'display: unset;');
+      }
+      var node = document.querySelector("#edit-on-gitee");
+      if (node) {
+        node.setAttribute('href', "https://gitee.com/embers-of-the-fire/embers-of-the-fire/edit/main/docs/" + fp);
+      }
+      var node = document.querySelector("#issue-on-github");
+      if (node) {
+        node.setAttribute('href', "https://github.com/Embers-of-the-Fire/Embers-of-the-Fire.github.io/issues/new?assignees=&labels=documentation%2C+enhancement&projects=&template=new-documentation.md&title=[DOC] PR: File `" + fp + "`");
+      }
+      var ul = document.querySelector("#edit-list");
+      if (ul) {
+        ul.setAttribute('style', 'display: unset;');
+      }
+      var ul = document.querySelector("#issue-list");
+      if (ul) {
+        ul.setAttribute('style', 'display: unset;');
       }
     }
 
     // hide edit-on-github link
     function hide_github() {
-      var node = document.querySelector("#edit-on-github");
-      if (node) {
-        node.setAttribute('style', 'display: none;');
+      var ul = document.querySelector("#edit-list");
+      if (ul) {
+        ul.setAttribute('style', 'display: none;');
+      }
+      var ul = document.querySelector("#issue-list");
+      if (ul) {
+        ul.setAttribute('style', 'display: none;');
       }
     }
 

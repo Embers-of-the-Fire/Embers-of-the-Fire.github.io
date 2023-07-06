@@ -1,0 +1,16 @@
+name: 更改教程
+description: 对教程的文本进行更改或添加
+title: "[文档]"
+labals: ["enhancement", "enhancement"]
+assignees: []
+body:
+- type: textarea
+  id: new
+  attribute:
+    labal: 有什么新功能
+    value: 如果你需要新的教程，请填写这里
+- type: textarea
+  id: error
+  attribute:
+    label: 有什么错误需要修正
+    value: 如果你发现了教程的错误，请填写这里
