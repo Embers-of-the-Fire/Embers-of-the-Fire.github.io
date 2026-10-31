@@ -1,0 +1,189 @@
+:root {
+  --bg: #fdfdfa;
+  --text: #1c1c1a;
+  --muted: #6b6b64;
+  --accent: #d1542b;
+  --border: #e6e4dc;
+  --max-width: 42rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 4rem 1.5rem;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.25rem;
+}
+
+h2 {
+  font-size: 0.85rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+
+h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background: var(--accent);
+  vertical-align: baseline;
+}
+
+section {
+  margin-top: 3.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: #f3f1ea;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.05em 0.3em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.tagline {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.entry {
+  margin-bottom: 1.5rem;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-title {
+  font-weight: 600;
+}
+
+.entry-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.entry p {
+  margin: 0.15rem 0 0;
+}
+
+.contrib-group {
+  margin-bottom: 1.25rem;
+}
+
+.contrib-group:last-child {
+  margin-bottom: 0;
+}
+
+.contrib-group .repo {
+  font-weight: 600;
+}
+
+.contrib-group ul {
+  margin-top: 0.25rem;
+}
+
+.contrib-group li {
+  padding-left: 1.25rem;
+  position: relative;
+  color: var(--text);
+}
+
+.contrib-group li::before {
+  content: "–";
+  position: absolute;
+  left: 0.35rem;
+  color: var(--muted);
+}
+
+.stats img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+footer {
+  max-width: var(--max-width);
+  margin: 4rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 2.5rem 1.25rem;
+  }
+}

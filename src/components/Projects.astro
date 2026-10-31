@@ -1,0 +1,64 @@
+---
+interface Project {
+  name: string;
+  url: string;
+  tech: string;
+  description: string;
+}
+
+const projects: Project[] = [
+  {
+    name: "cargo-dlx",
+    url: "https://github.com/Embers-of-the-Fire/cargo-dlx",
+    tech: "Rust",
+    description:
+      "A cargo subcommand to download, build, and run binaries from crates.io without installing them. Recognized by Cargo/Clap maintainers and planned for upstreaming into Cargo.",
+  },
+  {
+    name: "cicest",
+    url: "https://github.com/Embers-of-the-Fire/cicest",
+    tech: "C++ · LLVM",
+    description:
+      "A programming language supporting both native VM execution and LLVM-based compilation, with a compile-time boundary overlay and linear type inference.",
+  },
+  {
+    name: "EVE Fit Assistant",
+    url: "https://github.com/Embers-of-the-Fire/eve-fit-assistant",
+    tech: "Flutter · Rust · Python",
+    description:
+      "A cross-platform fitting utility for EVE Online, with CI/CD-driven data extraction and identity-based content distribution on Cloudflare Workers.",
+  },
+  {
+    name: "EVE MultiTools",
+    url: "https://github.com/Embers-of-the-Fire/EVE-MultiTools",
+    tech: "TypeScript · Rust · Python",
+    description:
+      "A comprehensive toolset for EVE Online players: market analysis, character management, industry tools, and more.",
+  },
+  {
+    name: "pdxdoc-next",
+    url: "https://github.com/Embers-of-the-Fire/pdxdoc-next",
+    tech: "Astro · MDX",
+    description: "Community documentation site for the game Stellaris.",
+  },
+  {
+    name: "monad-std",
+    url: "https://github.com/Embers-of-the-Fire/monad-std",
+    tech: "Python",
+    description: "Rust-styled monad utilities (Option, Result, and friends) for Python.",
+  },
+];
+---
+
+<section>
+  <h2>Selected Projects</h2>
+  {projects.map((p) => (
+    <div class="entry">
+      <span class="entry-title">
+        <a href={p.url}>{p.name}</a>
+      </span>
+      <span class="entry-meta"> · {p.tech}</span>
+      <p>{p.description}</p>
+    </div>
+  ))}
+</section>

@@ -1,0 +1,79 @@
+---
+interface Contribution {
+  repo: string;
+  url: string;
+  /** Items are HTML strings; `<code>` tags are used for identifiers. */
+  items: string[];
+}
+
+const code = (s: string) => `<code>${s}</code>`;
+
+const contributions: Contribution[] = [
+  {
+    repo: "rust-lang / rust & cargo",
+    url: "https://github.com/rust-lang",
+    items: [
+      `Fixed closure capture behavior of ${code("if let")} in the compiler`,
+      `Fixed rustdoc ${code("file_span")} generation for scraped examples`,
+      `Fixed a missing truncate when Cargo writes ${code(".crate")} files`,
+    ],
+  },
+  {
+    repo: "nushell",
+    url: "https://github.com/nushell/nushell",
+    items: [
+      `Added the ${code("--upgrade")} switch for ${code("mv")}`,
+      "Made string-related commands parse-time evaluatable",
+      `Fixed an internal panic in ${code("query web")} and an overflow in table display`,
+    ],
+  },
+  {
+    repo: "astral-sh / ruff",
+    url: "https://github.com/astral-sh/ruff",
+    items: [
+      `Fixed ${code("refurb")} misbehavior of ${code("operator.itemgetter")} with tuple getters`,
+      "Fixed rule B909 panicking on large loop blocks",
+    ],
+  },
+  {
+    repo: "pydantic / monty",
+    url: "https://github.com/pydantic/monty",
+    items: [
+      `Independently ported, adapted, and tested CPython's native ${code("re")} module`,
+      "Added a printer callback for the JavaScript binding",
+    ],
+  },
+  {
+    repo: "PyO3",
+    url: "https://github.com/PyO3/pyo3",
+    items: [
+      `Fixed ${code("std::ffi")} import for ${code("_Py_NegativeRefcount")} across build environments`,
+    ],
+  },
+  {
+    repo: "and more",
+    url: "https://github.com/search?q=author%3AEmbers-of-the-Fire+type%3Apr+is%3Amerged",
+    items: [
+      "tokei — new language support and output-format fixes",
+      "sniffnet &amp; tauri-docs — Simplified Chinese translations",
+      `rust-headless-chrome — fixed mismatched ${code("LaunchOptions")} defaults`,
+    ],
+  },
+];
+---
+
+<section>
+  <h2>Open Source Contributions</h2>
+  {contributions.map((c) => (
+    <div class="contrib-group">
+      <span class="repo">
+        <a href={c.url}>{c.repo}</a>
+      </span>
+      <ul>
+        {c.items.map((item) => (
+          <li set:html={item} />
+        ))}
+      </ul>
+    </div>
+  ))}
+</section>
